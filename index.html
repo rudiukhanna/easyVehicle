@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyVehicle</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-wrapper">
+                <a href="./index.html" class="header-logo">EasyVehicle</a>
+
+                <div class="nav-bar-wrapper">
+                    <ul class="nav-bar">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="#about">About us</a></li>
+                        <li><a href="#footer-contacts">Contacts</a></li>
+                    </ul>
+
+                        <div class="header-btn">
+                            <a href="#choose" class="btn">Choose me</a>
+                        </div>
+                      
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- hero -->
+        <section class="hero">
+            <div class="hero-image">
+                <h1 class="hero-title">Vehicle is simplier<br>than you think</h1>
+            </div>
+        </section>
+
+        <!-- About us -->
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="title-color">About us</h2>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat iste, sint, a nemo nostrum et ducimus sunt libero distinctio nesciunt deserunt impedit minus in non harum excepturi numquam modi nihil alias praesentium voluptatem illum eos corrupti. Eius molestiae labore provident quia cupiditate deserunt, aliquid ab aut fugit asperiores saepe! Nemo, perspiciatis neque ex maiores voluptas unde voluptate voluptatibus sit est eius sed numquam, ipsum exercitationem nulla ipsam accusamus. Ea adipisci incidunt, reprehenderit placeat cum perferendis neque totam repudiandae ullam ratione voluptatum nemo molestias. Ipsum, magni? Et perferendis veniam fugit nihil quas natus eligendi, accusantium sint voluptatum porro rem, sapiente sed ut repudiandae explicabo maxime magni? Cupiditate, dolorum eum! Nesciunt est aspernatur qui, perferendis porro iste dignissimos. Tempore magni asperiores beatae, nesciunt, vitae eaque eveniet numquam reiciendis iure molestiae debitis quia veritatis doloribus distinctio ipsum molestias possimus reprehenderit quasi dolorem culpa. Delectus quam non nam, in illo rem explicabo ea voluptatum.</p>
+            </div>
+        </section>
+
+        <!-- Choose me -->
+        <section class="choose" id="choose">
+            <div class="container">
+                <h2>Choose me</h2>
+
+                    <div class="choose-card-wrapper">
+
+                        <div class="choose-card">
+                            <div class="choose-image hiundai"></div>
+                            <div class="choose-card-content"></div>
+                                 <h3>Hiundai</h3>
+                                 <p class="card-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto reprehenderit totam id animi illum voluptatem eligendi tenetur recusandae magnam possimus facere ab magni mollitia harum itaque commodi excepturi, eos quos! Repellendus odit dolor quasi mollitia, quam, eaque perferendis cupiditate consectetur quae, quos in blanditiis architecto. Nostrum, odit veritatis. Magni, iste?</p>
+                            <div class="choose-btn"><a href="#" class="btn">Choose me</a></div>
+                                 
+                            </div>
+                    
+
+                        <div class="choose-card mazda-bcg-color">
+                            <div class="choose-image mazda"></div>
+                        <div class="choose-card-content">
+                                 <h3>Mazda</h3>
+                            <p class="card-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto reprehenderit totam id animi illum voluptatem eligendi tenetur recusandae magnam possimus facere ab magni mollitia harum itaque commodi excepturi, eos quos! Repellendus odit dolor quasi mollitia, quam, eaque perferendis cupiditate consectetur quae, quos in blanditiis architecto. Nostrum, odit veritatis. Magni, iste?</p>
+                            <div class="choose-btn"><a href="#" class="btn">Choose me</a></div>
+                        </div>
+                    </div>
+
+                        <div class="choose-card">
+                            <div class="choose-image mini-cooper"></div> 
+                            <div class="choose-card-content"></div> 
+                                <h3>Mini-Cooper</h3>
+                                <p class="card-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto reprehenderit totam id animi illum voluptatem eligendi tenetur recusandae magnam possimus facere ab magni mollitia harum itaque commodi excepturi, eos quos! Repellendus odit dolor quasi mollitia, quam, eaque perferendis cupiditate consectetur quae, quos in blanditiis architecto. Nostrum, odit veritatis. Magni, iste?</p>
+                                <div class="choose-btn">
+                                    <a href="#" class="btn">Choose me</a>
+                                </div>
+                            </div>
+                   
+                </div>
+            </div>
+        </section>
+
+        <!-- Get fuel remaining -->
+        <section class="fuel">
+            <div class="container">
+                <h2 class="title-color">Count the remaining fuel</h2>
+
+                <div class="fuel-content-wrapper">
+                    <div class="fuel-image"></div>
+                    <p class="fuel-p">
+                        To calculate the amount of used fuel is simple!<br>
+                        Just put your <span class="fuel-p-param">value of daily mileage</span> <br> and  <span class="fuel-p-param">average fuel consumption per 100 km</span> . 
+                     </p>
+                      
+                     <div class="fuel-calc">
+                    
+                     <input id="input1" class="fuel-input" type="number" placeholder="mileage">
+                     <input id="input2" class="fuel-input" type="number" placeholder="km">
+                     <input  id="fuel-btn" class="fuel-submit" type="submit" value="Submit">
+
+                     <div class="fuel-input-result">
+                        <input id="res" class="fuel-input" type="number" placeholder="result">
+                     </div>
+                     
+
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer-contacts" class="footer">
+        <div class="container">
+           <p class="footer-copyright">&#169; Autodammies, Inc</p> 
+        </div>
+    </footer>
+
+
+    <!-- Script -->
+    <script src="./js/fuel.js"></script>
+</body>
+</html>
